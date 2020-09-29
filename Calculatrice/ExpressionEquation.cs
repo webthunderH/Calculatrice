@@ -13,7 +13,18 @@ namespace Calculatrice
 
         public string ExecuteCalculation(string equation)
         {
+
             return "J'ai effectuer le calcul";
+        }
+
+        private double Calculate(double a, double b, string operation)
+        {
+            return 0;
+        }
+
+        private List<string> FindAllExpression(string equation)
+        {
+            return new List<string>() { string.Empty };
         }
     }
 }
